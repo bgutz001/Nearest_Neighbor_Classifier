@@ -2,13 +2,27 @@
 #include <vector>
 #include <assert.h>
 #include <math.h>
+#include <fstream>
+#include <string>
+#include <cstdio>
+
+#define MAX_NUM_FEATURES 1000
 
 struct Object {
-  int oClass;
+  // First item is class
+  // The rest are features
   std::vector<double> features;
   
   Object() {
-    oClass = 0;
+
+  }
+
+  void print() {
+    std::cout << "features length: " << features.size() << std::endl;
+    for (auto it = features.begin(); it != features.end(); ++it) {
+      std::cout << *it << ' ';
+    }
+    std::cout << std::endl;
   }
   
 };
@@ -34,8 +48,47 @@ int main(int argc, char* argv[]) {
   if (argc != 2) {
     std::cout << "Incorrect usage. \nCorrect usage: " << argv[0] <<
       " <filename> \nwhere <filename> is the name of the file for your dataset" << std::endl;
+    exit(-1);
   }
 
+  std::fstream file;
+  file.open(argv[1]);
+  if (file.fail()) {
+    std::cout << "Failed to open file " << argv[1] << std::endl;
+    exit(-2);
+  }
+
+  std::vector<Object> instances;
+  std::string line;
+  double temp;
+  while (!getline(file, line).eof()) {
+    instances.push_back(Object());
+
+    // Read in features
+    while (sscanf(line.c_str(), "%lf", &temp) != 0) {
+      // Delete leading whitespace
+      while (line.at(0) == ' ') {
+	line.erase(0, 1);
+	std::cout << line << std::endl;
+      }
+      
+      instances.back().features.push_back(temp);
+      std::size_t pos = line.find(' ', 0);
+      if (pos == std::string::npos) {
+	break;
+      }
+      line = line.substr(pos);
+    }
+  }
+
+
+  // DEBUG
+  std::cout << "num instances: " << instances.size() << std::endl;
+  for (auto it = instances.begin(); it != instances.end(); ++it) {
+    it->print();
+  }
+  
+  file.close();
   
   
   
