@@ -8,4 +8,4 @@ ONearestNeighbor.out: main.cpp
 
 clean:
 	rm NearestNeighbor.out
-	rm *~
+	rm ONearestNeighbor.out
