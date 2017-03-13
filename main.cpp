@@ -24,7 +24,7 @@ struct Object {
 };
 
 // Returns the distance between two objects.
-// featureIndicies is the idindices of the features to use in the object's feature list
+// featureIndicies is the indices of the features to use in the object's feature list
 // obj1 and obj2 are the objects you are calculating the distance between
 double distance
 (const std::set<int> &featureIndicies, const Object &obj1, const Object &obj2);
@@ -238,54 +238,48 @@ double validation
 }
 
 
-std::set<int>
-forwardSelection(const std::vector<Object> &trainingSet) {
+std::set<int> forwardSelection
+(const std::vector<Object> &trainingSet) {
   if (trainingSet.size() == 0) {
     std::cout << "Error: Training set has no objects" << std::endl;
     exit(0);
   }
 
+  std::set<int> remainingFeatures;
+  for (int i = 1; i < trainingSet.at(0).features.size(); ++i) {
+    remainingFeatures.insert(i);
+  }
   std::set<int> featureList;
   std::set<int> localFeatureList;
   double accuracy = 0;
-  int feature = 1;
-  bool gain = true; // If we are still gaining accuracy
+  int feature = -1;
+  bool gain = true;
 
-  while(true) {
-    gain = false;
-    double localAccuracy = 0;
-    for (int i = 1; i < trainingSet.at(0).features.size(); ++i) {
-      // Check if i is already in features list
-      if (localFeatureList.find(i) != localFeatureList.end()) {
-	continue;
-      }
-      localFeatureList.insert(i);
+  while (!remainingFeatures.empty()) {
+    double maxAccuracy = 0;
+    for (auto it = remainingFeatures.begin(); it != remainingFeatures.end(); ++it) {
+      localFeatureList.insert(*it);
       
-      double curAccuracy = validation(localFeatureList, trainingSet);
+      double temp = validation(localFeatureList, trainingSet);
+      if (temp > maxAccuracy) {
+     	maxAccuracy = temp;
+	feature = *it;
+      }
       std::cout << "Acurracy with features: ";
       printFeatureList(localFeatureList);
-      std::cout << " is: " << curAccuracy << std::endl;
+      std::cout << " is: " << temp << std::endl;
       
-      if (curAccuracy > localAccuracy) {
-	localAccuracy = curAccuracy;
-	gain = true;
-	feature = i;
-      }
-      localFeatureList.erase(i);
+      localFeatureList.erase(*it);
     }
-    // No more features left to expand
-    if (localAccuracy == 0) {
-      break;
-    }
-    if (gain) {
-      std::cout << "Best choice is feature: " << feature << std::endl;
-      localFeatureList.insert(feature);
-    }
-    if (localAccuracy > accuracy) {
+    std::cout << "Best choice is to add feature: " << feature << std::endl;
+    localFeatureList.insert(feature);
+    remainingFeatures.erase(feature);
+    if (maxAccuracy > accuracy) {
       featureList = localFeatureList;
-      accuracy = localAccuracy;
-    }
-  } 
+      accuracy = maxAccuracy;
+    } 
+  }
+
   return featureList;
 }
 
@@ -334,7 +328,8 @@ std::set<int> backwardElimination
   return featureList;
 }
 
-void printFeatureList(const std::set<int> &featureList) {
+void printFeatureList
+(const std::set<int> &featureList) {
   if (featureList.empty())
     return;
   std::cout << "{";
