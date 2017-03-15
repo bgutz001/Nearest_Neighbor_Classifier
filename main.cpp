@@ -355,7 +355,7 @@ std::set<int> backwardElimination
   double accuracy = validation(localFeatureList, trainingSet);
   int feature = -1;
 
-  while (!localFeatureList.empty()) {
+  while (localFeatureList.size() > 1) {
     double maxAccuracy = 0;
     for (auto it = localFeatureList.begin(); it != localFeatureList.end(); ++it) {
       localFeatureList.erase(*it);
