@@ -1,0 +1,869 @@
+Reading data from input file (done)
+This dataset has 40 features (not including the class attribute), with 1000 instances.
+Normalizing data (done)
+Type the number of the algorithm you want to run.
+	1) Forward Selection
+	2) Backward Elimination
+Starting search
+Acurracy with features: {1} is: 0.703
+Acurracy with features: {2} is: 0.663
+Acurracy with features: {3} is: 0.676
+Acurracy with features: {4} is: 0.695
+Acurracy with features: {5} is: 0.685
+Acurracy with features: {6} is: 0.669
+Acurracy with features: {7} is: 0.668
+Acurracy with features: {8} is: 0.687
+Acurracy with features: {9} is: 0.694
+Acurracy with features: {10} is: 0.651
+Acurracy with features: {11} is: 0.656
+Acurracy with features: {12} is: 0.681
+Acurracy with features: {13} is: 0.817
+Acurracy with features: {14} is: 0.676
+Acurracy with features: {15} is: 0.684
+Acurracy with features: {16} is: 0.680
+Acurracy with features: {17} is: 0.646
+Acurracy with features: {18} is: 0.687
+Acurracy with features: {19} is: 0.676
+Acurracy with features: {20} is: 0.661
+Acurracy with features: {21} is: 0.716
+Acurracy with features: {22} is: 0.676
+Acurracy with features: {23} is: 0.691
+Acurracy with features: {24} is: 0.694
+Acurracy with features: {25} is: 0.705
+Acurracy with features: {26} is: 0.666
+Acurracy with features: {27} is: 0.684
+Acurracy with features: {28} is: 0.676
+Acurracy with features: {29} is: 0.670
+Acurracy with features: {30} is: 0.689
+Acurracy with features: {31} is: 0.679
+Acurracy with features: {32} is: 0.685
+Acurracy with features: {33} is: 0.672
+Acurracy with features: {34} is: 0.686
+Acurracy with features: {35} is: 0.665
+Acurracy with features: {36} is: 0.672
+Acurracy with features: {37} is: 0.691
+Acurracy with features: {38} is: 0.687
+Acurracy with features: {39} is: 0.703
+Acurracy with features: {40} is: 0.696
+Feature set {13} was best, accuracy is 0.817
+Acurracy with features: {1, 13} is: 0.837
+Acurracy with features: {2, 13} is: 0.828
+Acurracy with features: {3, 13} is: 0.825
+Acurracy with features: {4, 13} is: 0.821
+Acurracy with features: {5, 13} is: 0.840
+Acurracy with features: {6, 13} is: 0.847
+Acurracy with features: {7, 13} is: 0.832
+Acurracy with features: {8, 13} is: 0.806
+Acurracy with features: {9, 13} is: 0.839
+Acurracy with features: {10, 13} is: 0.847
+Acurracy with features: {11, 13} is: 0.827
+Acurracy with features: {12, 13} is: 0.841
+Acurracy with features: {13, 14} is: 0.832
+Acurracy with features: {13, 15} is: 0.821
+Acurracy with features: {13, 16} is: 0.818
+Acurracy with features: {13, 17} is: 0.828
+Acurracy with features: {13, 18} is: 0.832
+Acurracy with features: {13, 19} is: 0.824
+Acurracy with features: {13, 20} is: 0.811
+Acurracy with features: {13, 21} is: 0.955
+Acurracy with features: {13, 22} is: 0.823
+Acurracy with features: {13, 23} is: 0.826
+Acurracy with features: {13, 24} is: 0.812
+Acurracy with features: {13, 25} is: 0.828
+Acurracy with features: {13, 26} is: 0.791
+Acurracy with features: {13, 27} is: 0.825
+Acurracy with features: {13, 28} is: 0.823
+Acurracy with features: {13, 29} is: 0.847
+Acurracy with features: {13, 30} is: 0.850
+Acurracy with features: {13, 31} is: 0.818
+Acurracy with features: {13, 32} is: 0.822
+Acurracy with features: {13, 33} is: 0.830
+Acurracy with features: {13, 34} is: 0.813
+Acurracy with features: {13, 35} is: 0.834
+Acurracy with features: {13, 36} is: 0.834
+Acurracy with features: {13, 37} is: 0.807
+Acurracy with features: {13, 38} is: 0.812
+Acurracy with features: {13, 39} is: 0.831
+Acurracy with features: {13, 40} is: 0.843
+Feature set {13, 21} was best, accuracy is 0.955
+Acurracy with features: {1, 13, 21} is: 0.933
+Acurracy with features: {2, 13, 21} is: 0.916
+Acurracy with features: {3, 13, 21} is: 0.921
+Acurracy with features: {4, 13, 21} is: 0.929
+Acurracy with features: {5, 13, 21} is: 0.922
+Acurracy with features: {6, 13, 21} is: 0.930
+Acurracy with features: {7, 13, 21} is: 0.931
+Acurracy with features: {8, 13, 21} is: 0.923
+Acurracy with features: {9, 13, 21} is: 0.917
+Acurracy with features: {10, 13, 21} is: 0.939
+Acurracy with features: {11, 13, 21} is: 0.924
+Acurracy with features: {12, 13, 21} is: 0.943
+Acurracy with features: {13, 14, 21} is: 0.933
+Acurracy with features: {13, 15, 21} is: 0.938
+Acurracy with features: {13, 16, 21} is: 0.930
+Acurracy with features: {13, 17, 21} is: 0.923
+Acurracy with features: {13, 18, 21} is: 0.930
+Acurracy with features: {13, 19, 21} is: 0.928
+Acurracy with features: {13, 20, 21} is: 0.928
+Acurracy with features: {13, 21, 22} is: 0.922
+Acurracy with features: {13, 21, 23} is: 0.924
+Acurracy with features: {13, 21, 24} is: 0.925
+Acurracy with features: {13, 21, 25} is: 0.914
+Acurracy with features: {13, 21, 26} is: 0.928
+Acurracy with features: {13, 21, 27} is: 0.921
+Acurracy with features: {13, 21, 28} is: 0.934
+Acurracy with features: {13, 21, 29} is: 0.928
+Acurracy with features: {13, 21, 30} is: 0.924
+Acurracy with features: {13, 21, 31} is: 0.929
+Acurracy with features: {13, 21, 32} is: 0.929
+Acurracy with features: {13, 21, 33} is: 0.935
+Acurracy with features: {13, 21, 34} is: 0.927
+Acurracy with features: {13, 21, 35} is: 0.914
+Acurracy with features: {13, 21, 36} is: 0.929
+Acurracy with features: {13, 21, 37} is: 0.922
+Acurracy with features: {13, 21, 38} is: 0.919
+Acurracy with features: {13, 21, 39} is: 0.936
+Acurracy with features: {13, 21, 40} is: 0.923
+Feature set {12, 13, 21} was best, accuracy is 0.943
+Acurracy with features: {1, 12, 13, 21} is: 0.889
+Acurracy with features: {2, 12, 13, 21} is: 0.897
+Acurracy with features: {3, 12, 13, 21} is: 0.909
+Acurracy with features: {4, 12, 13, 21} is: 0.886
+Acurracy with features: {5, 12, 13, 21} is: 0.884
+Acurracy with features: {6, 12, 13, 21} is: 0.897
+Acurracy with features: {7, 12, 13, 21} is: 0.899
+Acurracy with features: {8, 12, 13, 21} is: 0.891
+Acurracy with features: {9, 12, 13, 21} is: 0.892
+Acurracy with features: {10, 12, 13, 21} is: 0.897
+Acurracy with features: {11, 12, 13, 21} is: 0.907
+Acurracy with features: {12, 13, 14, 21} is: 0.891
+Acurracy with features: {12, 13, 15, 21} is: 0.886
+Acurracy with features: {12, 13, 16, 21} is: 0.892
+Acurracy with features: {12, 13, 17, 21} is: 0.881
+Acurracy with features: {12, 13, 18, 21} is: 0.889
+Acurracy with features: {12, 13, 19, 21} is: 0.889
+Acurracy with features: {12, 13, 20, 21} is: 0.892
+Acurracy with features: {12, 13, 21, 22} is: 0.892
+Acurracy with features: {12, 13, 21, 23} is: 0.896
+Acurracy with features: {12, 13, 21, 24} is: 0.895
+Acurracy with features: {12, 13, 21, 25} is: 0.894
+Acurracy with features: {12, 13, 21, 26} is: 0.907
+Acurracy with features: {12, 13, 21, 27} is: 0.894
+Acurracy with features: {12, 13, 21, 28} is: 0.897
+Acurracy with features: {12, 13, 21, 29} is: 0.897
+Acurracy with features: {12, 13, 21, 30} is: 0.908
+Acurracy with features: {12, 13, 21, 31} is: 0.891
+Acurracy with features: {12, 13, 21, 32} is: 0.898
+Acurracy with features: {12, 13, 21, 33} is: 0.889
+Acurracy with features: {12, 13, 21, 34} is: 0.888
+Acurracy with features: {12, 13, 21, 35} is: 0.875
+Acurracy with features: {12, 13, 21, 36} is: 0.894
+Acurracy with features: {12, 13, 21, 37} is: 0.904
+Acurracy with features: {12, 13, 21, 38} is: 0.891
+Acurracy with features: {12, 13, 21, 39} is: 0.902
+Acurracy with features: {12, 13, 21, 40} is: 0.909
+Feature set {3, 12, 13, 21} was best, accuracy is 0.909
+Acurracy with features: {1, 3, 12, 13, 21} is: 0.855
+Acurracy with features: {2, 3, 12, 13, 21} is: 0.863
+Acurracy with features: {3, 4, 12, 13, 21} is: 0.861
+Acurracy with features: {3, 5, 12, 13, 21} is: 0.850
+Acurracy with features: {3, 6, 12, 13, 21} is: 0.852
+Acurracy with features: {3, 7, 12, 13, 21} is: 0.855
+Acurracy with features: {3, 8, 12, 13, 21} is: 0.834
+Acurracy with features: {3, 9, 12, 13, 21} is: 0.874
+Acurracy with features: {3, 10, 12, 13, 21} is: 0.867
+Acurracy with features: {3, 11, 12, 13, 21} is: 0.862
+Acurracy with features: {3, 12, 13, 14, 21} is: 0.852
+Acurracy with features: {3, 12, 13, 15, 21} is: 0.855
+Acurracy with features: {3, 12, 13, 16, 21} is: 0.853
+Acurracy with features: {3, 12, 13, 17, 21} is: 0.847
+Acurracy with features: {3, 12, 13, 18, 21} is: 0.877
+Acurracy with features: {3, 12, 13, 19, 21} is: 0.856
+Acurracy with features: {3, 12, 13, 20, 21} is: 0.855
+Acurracy with features: {3, 12, 13, 21, 22} is: 0.860
+Acurracy with features: {3, 12, 13, 21, 23} is: 0.871
+Acurracy with features: {3, 12, 13, 21, 24} is: 0.872
+Acurracy with features: {3, 12, 13, 21, 25} is: 0.837
+Acurracy with features: {3, 12, 13, 21, 26} is: 0.864
+Acurracy with features: {3, 12, 13, 21, 27} is: 0.859
+Acurracy with features: {3, 12, 13, 21, 28} is: 0.848
+Acurracy with features: {3, 12, 13, 21, 29} is: 0.864
+Acurracy with features: {3, 12, 13, 21, 30} is: 0.868
+Acurracy with features: {3, 12, 13, 21, 31} is: 0.857
+Acurracy with features: {3, 12, 13, 21, 32} is: 0.851
+Acurracy with features: {3, 12, 13, 21, 33} is: 0.865
+Acurracy with features: {3, 12, 13, 21, 34} is: 0.869
+Acurracy with features: {3, 12, 13, 21, 35} is: 0.861
+Acurracy with features: {3, 12, 13, 21, 36} is: 0.875
+Acurracy with features: {3, 12, 13, 21, 37} is: 0.866
+Acurracy with features: {3, 12, 13, 21, 38} is: 0.864
+Acurracy with features: {3, 12, 13, 21, 39} is: 0.851
+Acurracy with features: {3, 12, 13, 21, 40} is: 0.845
+Feature set {3, 12, 13, 18, 21} was best, accuracy is 0.877
+Acurracy with features: {1, 3, 12, 13, 18, 21} is: 0.827
+Acurracy with features: {2, 3, 12, 13, 18, 21} is: 0.829
+Acurracy with features: {3, 4, 12, 13, 18, 21} is: 0.809
+Acurracy with features: {3, 5, 12, 13, 18, 21} is: 0.796
+Acurracy with features: {3, 6, 12, 13, 18, 21} is: 0.794
+Acurracy with features: {3, 7, 12, 13, 18, 21} is: 0.837
+Acurracy with features: {3, 8, 12, 13, 18, 21} is: 0.816
+Acurracy with features: {3, 9, 12, 13, 18, 21} is: 0.806
+Acurracy with features: {3, 10, 12, 13, 18, 21} is: 0.825
+Acurracy with features: {3, 11, 12, 13, 18, 21} is: 0.828
+Acurracy with features: {3, 12, 13, 14, 18, 21} is: 0.824
+Acurracy with features: {3, 12, 13, 15, 18, 21} is: 0.830
+Acurracy with features: {3, 12, 13, 16, 18, 21} is: 0.830
+Acurracy with features: {3, 12, 13, 17, 18, 21} is: 0.822
+Acurracy with features: {3, 12, 13, 18, 19, 21} is: 0.818
+Acurracy with features: {3, 12, 13, 18, 20, 21} is: 0.836
+Acurracy with features: {3, 12, 13, 18, 21, 22} is: 0.813
+Acurracy with features: {3, 12, 13, 18, 21, 23} is: 0.812
+Acurracy with features: {3, 12, 13, 18, 21, 24} is: 0.825
+Acurracy with features: {3, 12, 13, 18, 21, 25} is: 0.829
+Acurracy with features: {3, 12, 13, 18, 21, 26} is: 0.840
+Acurracy with features: {3, 12, 13, 18, 21, 27} is: 0.828
+Acurracy with features: {3, 12, 13, 18, 21, 28} is: 0.816
+Acurracy with features: {3, 12, 13, 18, 21, 29} is: 0.849
+Acurracy with features: {3, 12, 13, 18, 21, 30} is: 0.840
+Acurracy with features: {3, 12, 13, 18, 21, 31} is: 0.820
+Acurracy with features: {3, 12, 13, 18, 21, 32} is: 0.810
+Acurracy with features: {3, 12, 13, 18, 21, 33} is: 0.845
+Acurracy with features: {3, 12, 13, 18, 21, 34} is: 0.839
+Acurracy with features: {3, 12, 13, 18, 21, 35} is: 0.807
+Acurracy with features: {3, 12, 13, 18, 21, 36} is: 0.832
+Acurracy with features: {3, 12, 13, 18, 21, 37} is: 0.848
+Acurracy with features: {3, 12, 13, 18, 21, 38} is: 0.832
+Acurracy with features: {3, 12, 13, 18, 21, 39} is: 0.835
+Acurracy with features: {3, 12, 13, 18, 21, 40} is: 0.798
+Feature set {3, 12, 13, 18, 21, 29} was best, accuracy is 0.849
+Acurracy with features: {1, 3, 12, 13, 18, 21, 29} is: 0.801
+Acurracy with features: {2, 3, 12, 13, 18, 21, 29} is: 0.804
+Acurracy with features: {3, 4, 12, 13, 18, 21, 29} is: 0.803
+Acurracy with features: {3, 5, 12, 13, 18, 21, 29} is: 0.780
+Acurracy with features: {3, 6, 12, 13, 18, 21, 29} is: 0.789
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29} is: 0.801
+Acurracy with features: {3, 8, 12, 13, 18, 21, 29} is: 0.802
+Acurracy with features: {3, 9, 12, 13, 18, 21, 29} is: 0.815
+Acurracy with features: {3, 10, 12, 13, 18, 21, 29} is: 0.787
+Acurracy with features: {3, 11, 12, 13, 18, 21, 29} is: 0.811
+Acurracy with features: {3, 12, 13, 14, 18, 21, 29} is: 0.804
+Acurracy with features: {3, 12, 13, 15, 18, 21, 29} is: 0.821
+Acurracy with features: {3, 12, 13, 16, 18, 21, 29} is: 0.814
+Acurracy with features: {3, 12, 13, 17, 18, 21, 29} is: 0.790
+Acurracy with features: {3, 12, 13, 18, 19, 21, 29} is: 0.789
+Acurracy with features: {3, 12, 13, 18, 20, 21, 29} is: 0.808
+Acurracy with features: {3, 12, 13, 18, 21, 22, 29} is: 0.811
+Acurracy with features: {3, 12, 13, 18, 21, 23, 29} is: 0.788
+Acurracy with features: {3, 12, 13, 18, 21, 24, 29} is: 0.797
+Acurracy with features: {3, 12, 13, 18, 21, 25, 29} is: 0.800
+Acurracy with features: {3, 12, 13, 18, 21, 26, 29} is: 0.802
+Acurracy with features: {3, 12, 13, 18, 21, 27, 29} is: 0.794
+Acurracy with features: {3, 12, 13, 18, 21, 28, 29} is: 0.789
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30} is: 0.800
+Acurracy with features: {3, 12, 13, 18, 21, 29, 31} is: 0.806
+Acurracy with features: {3, 12, 13, 18, 21, 29, 32} is: 0.801
+Acurracy with features: {3, 12, 13, 18, 21, 29, 33} is: 0.803
+Acurracy with features: {3, 12, 13, 18, 21, 29, 34} is: 0.820
+Acurracy with features: {3, 12, 13, 18, 21, 29, 35} is: 0.805
+Acurracy with features: {3, 12, 13, 18, 21, 29, 36} is: 0.817
+Acurracy with features: {3, 12, 13, 18, 21, 29, 37} is: 0.842
+Acurracy with features: {3, 12, 13, 18, 21, 29, 38} is: 0.797
+Acurracy with features: {3, 12, 13, 18, 21, 29, 39} is: 0.791
+Acurracy with features: {3, 12, 13, 18, 21, 29, 40} is: 0.806
+Feature set {3, 12, 13, 18, 21, 29, 37} was best, accuracy is 0.842
+Acurracy with features: {1, 3, 12, 13, 18, 21, 29, 37} is: 0.783
+Acurracy with features: {2, 3, 12, 13, 18, 21, 29, 37} is: 0.797
+Acurracy with features: {3, 4, 12, 13, 18, 21, 29, 37} is: 0.805
+Acurracy with features: {3, 5, 12, 13, 18, 21, 29, 37} is: 0.779
+Acurracy with features: {3, 6, 12, 13, 18, 21, 29, 37} is: 0.805
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 37} is: 0.805
+Acurracy with features: {3, 8, 12, 13, 18, 21, 29, 37} is: 0.811
+Acurracy with features: {3, 9, 12, 13, 18, 21, 29, 37} is: 0.802
+Acurracy with features: {3, 10, 12, 13, 18, 21, 29, 37} is: 0.793
+Acurracy with features: {3, 11, 12, 13, 18, 21, 29, 37} is: 0.777
+Acurracy with features: {3, 12, 13, 14, 18, 21, 29, 37} is: 0.805
+Acurracy with features: {3, 12, 13, 15, 18, 21, 29, 37} is: 0.799
+Acurracy with features: {3, 12, 13, 16, 18, 21, 29, 37} is: 0.803
+Acurracy with features: {3, 12, 13, 17, 18, 21, 29, 37} is: 0.789
+Acurracy with features: {3, 12, 13, 18, 19, 21, 29, 37} is: 0.807
+Acurracy with features: {3, 12, 13, 18, 20, 21, 29, 37} is: 0.803
+Acurracy with features: {3, 12, 13, 18, 21, 22, 29, 37} is: 0.806
+Acurracy with features: {3, 12, 13, 18, 21, 23, 29, 37} is: 0.787
+Acurracy with features: {3, 12, 13, 18, 21, 24, 29, 37} is: 0.793
+Acurracy with features: {3, 12, 13, 18, 21, 25, 29, 37} is: 0.797
+Acurracy with features: {3, 12, 13, 18, 21, 26, 29, 37} is: 0.783
+Acurracy with features: {3, 12, 13, 18, 21, 27, 29, 37} is: 0.793
+Acurracy with features: {3, 12, 13, 18, 21, 28, 29, 37} is: 0.787
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 37} is: 0.827
+Acurracy with features: {3, 12, 13, 18, 21, 29, 31, 37} is: 0.806
+Acurracy with features: {3, 12, 13, 18, 21, 29, 32, 37} is: 0.797
+Acurracy with features: {3, 12, 13, 18, 21, 29, 33, 37} is: 0.805
+Acurracy with features: {3, 12, 13, 18, 21, 29, 34, 37} is: 0.810
+Acurracy with features: {3, 12, 13, 18, 21, 29, 35, 37} is: 0.790
+Acurracy with features: {3, 12, 13, 18, 21, 29, 36, 37} is: 0.782
+Acurracy with features: {3, 12, 13, 18, 21, 29, 37, 38} is: 0.792
+Acurracy with features: {3, 12, 13, 18, 21, 29, 37, 39} is: 0.799
+Acurracy with features: {3, 12, 13, 18, 21, 29, 37, 40} is: 0.793
+Feature set {3, 12, 13, 18, 21, 29, 30, 37} was best, accuracy is 0.827
+Acurracy with features: {1, 3, 12, 13, 18, 21, 29, 30, 37} is: 0.757
+Acurracy with features: {2, 3, 12, 13, 18, 21, 29, 30, 37} is: 0.779
+Acurracy with features: {3, 4, 12, 13, 18, 21, 29, 30, 37} is: 0.800
+Acurracy with features: {3, 5, 12, 13, 18, 21, 29, 30, 37} is: 0.775
+Acurracy with features: {3, 6, 12, 13, 18, 21, 29, 30, 37} is: 0.801
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.814
+Acurracy with features: {3, 8, 12, 13, 18, 21, 29, 30, 37} is: 0.780
+Acurracy with features: {3, 9, 12, 13, 18, 21, 29, 30, 37} is: 0.778
+Acurracy with features: {3, 10, 12, 13, 18, 21, 29, 30, 37} is: 0.786
+Acurracy with features: {3, 11, 12, 13, 18, 21, 29, 30, 37} is: 0.785
+Acurracy with features: {3, 12, 13, 14, 18, 21, 29, 30, 37} is: 0.791
+Acurracy with features: {3, 12, 13, 15, 18, 21, 29, 30, 37} is: 0.787
+Acurracy with features: {3, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.779
+Acurracy with features: {3, 12, 13, 17, 18, 21, 29, 30, 37} is: 0.787
+Acurracy with features: {3, 12, 13, 18, 19, 21, 29, 30, 37} is: 0.776
+Acurracy with features: {3, 12, 13, 18, 20, 21, 29, 30, 37} is: 0.780
+Acurracy with features: {3, 12, 13, 18, 21, 22, 29, 30, 37} is: 0.771
+Acurracy with features: {3, 12, 13, 18, 21, 23, 29, 30, 37} is: 0.775
+Acurracy with features: {3, 12, 13, 18, 21, 24, 29, 30, 37} is: 0.774
+Acurracy with features: {3, 12, 13, 18, 21, 25, 29, 30, 37} is: 0.777
+Acurracy with features: {3, 12, 13, 18, 21, 26, 29, 30, 37} is: 0.801
+Acurracy with features: {3, 12, 13, 18, 21, 27, 29, 30, 37} is: 0.781
+Acurracy with features: {3, 12, 13, 18, 21, 28, 29, 30, 37} is: 0.770
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 31, 37} is: 0.777
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 32, 37} is: 0.778
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 33, 37} is: 0.783
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 34, 37} is: 0.780
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 35, 37} is: 0.787
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 36, 37} is: 0.777
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 37, 38} is: 0.775
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 37, 39} is: 0.776
+Acurracy with features: {3, 12, 13, 18, 21, 29, 30, 37, 40} is: 0.772
+Feature set {3, 7, 12, 13, 18, 21, 29, 30, 37} was best, accuracy is 0.814
+Acurracy with features: {1, 3, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.765
+Acurracy with features: {2, 3, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.781
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.801
+Acurracy with features: {3, 5, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.773
+Acurracy with features: {3, 6, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.784
+Acurracy with features: {3, 7, 8, 12, 13, 18, 21, 29, 30, 37} is: 0.778
+Acurracy with features: {3, 7, 9, 12, 13, 18, 21, 29, 30, 37} is: 0.783
+Acurracy with features: {3, 7, 10, 12, 13, 18, 21, 29, 30, 37} is: 0.765
+Acurracy with features: {3, 7, 11, 12, 13, 18, 21, 29, 30, 37} is: 0.782
+Acurracy with features: {3, 7, 12, 13, 14, 18, 21, 29, 30, 37} is: 0.773
+Acurracy with features: {3, 7, 12, 13, 15, 18, 21, 29, 30, 37} is: 0.781
+Acurracy with features: {3, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.782
+Acurracy with features: {3, 7, 12, 13, 17, 18, 21, 29, 30, 37} is: 0.754
+Acurracy with features: {3, 7, 12, 13, 18, 19, 21, 29, 30, 37} is: 0.759
+Acurracy with features: {3, 7, 12, 13, 18, 20, 21, 29, 30, 37} is: 0.778
+Acurracy with features: {3, 7, 12, 13, 18, 21, 22, 29, 30, 37} is: 0.774
+Acurracy with features: {3, 7, 12, 13, 18, 21, 23, 29, 30, 37} is: 0.762
+Acurracy with features: {3, 7, 12, 13, 18, 21, 24, 29, 30, 37} is: 0.766
+Acurracy with features: {3, 7, 12, 13, 18, 21, 25, 29, 30, 37} is: 0.773
+Acurracy with features: {3, 7, 12, 13, 18, 21, 26, 29, 30, 37} is: 0.771
+Acurracy with features: {3, 7, 12, 13, 18, 21, 27, 29, 30, 37} is: 0.760
+Acurracy with features: {3, 7, 12, 13, 18, 21, 28, 29, 30, 37} is: 0.770
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 31, 37} is: 0.761
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 32, 37} is: 0.761
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 33, 37} is: 0.776
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 34, 37} is: 0.772
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 35, 37} is: 0.755
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 36, 37} is: 0.757
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 37, 38} is: 0.766
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 37, 39} is: 0.779
+Acurracy with features: {3, 7, 12, 13, 18, 21, 29, 30, 37, 40} is: 0.770
+Feature set {3, 4, 7, 12, 13, 18, 21, 29, 30, 37} was best, accuracy is 0.801
+Acurracy with features: {1, 3, 4, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.745
+Acurracy with features: {2, 3, 4, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.760
+Acurracy with features: {3, 4, 5, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.755
+Acurracy with features: {3, 4, 6, 7, 12, 13, 18, 21, 29, 30, 37} is: 0.755
+Acurracy with features: {3, 4, 7, 8, 12, 13, 18, 21, 29, 30, 37} is: 0.767
+Acurracy with features: {3, 4, 7, 9, 12, 13, 18, 21, 29, 30, 37} is: 0.778
+Acurracy with features: {3, 4, 7, 10, 12, 13, 18, 21, 29, 30, 37} is: 0.758
+Acurracy with features: {3, 4, 7, 11, 12, 13, 18, 21, 29, 30, 37} is: 0.778
+Acurracy with features: {3, 4, 7, 12, 13, 14, 18, 21, 29, 30, 37} is: 0.779
+Acurracy with features: {3, 4, 7, 12, 13, 15, 18, 21, 29, 30, 37} is: 0.780
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.788
+Acurracy with features: {3, 4, 7, 12, 13, 17, 18, 21, 29, 30, 37} is: 0.743
+Acurracy with features: {3, 4, 7, 12, 13, 18, 19, 21, 29, 30, 37} is: 0.770
+Acurracy with features: {3, 4, 7, 12, 13, 18, 20, 21, 29, 30, 37} is: 0.773
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 22, 29, 30, 37} is: 0.788
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 23, 29, 30, 37} is: 0.764
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 24, 29, 30, 37} is: 0.768
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 25, 29, 30, 37} is: 0.759
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 26, 29, 30, 37} is: 0.768
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 27, 29, 30, 37} is: 0.759
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 28, 29, 30, 37} is: 0.749
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 31, 37} is: 0.765
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 32, 37} is: 0.749
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 33, 37} is: 0.767
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 34, 37} is: 0.764
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 35, 37} is: 0.748
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 36, 37} is: 0.759
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 37, 38} is: 0.762
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 37, 39} is: 0.773
+Acurracy with features: {3, 4, 7, 12, 13, 18, 21, 29, 30, 37, 40} is: 0.764
+Feature set {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37} was best, accuracy is 0.788
+Acurracy with features: {1, 3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.757
+Acurracy with features: {2, 3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.741
+Acurracy with features: {3, 4, 5, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.732
+Acurracy with features: {3, 4, 6, 7, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.744
+Acurracy with features: {3, 4, 7, 8, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.760
+Acurracy with features: {3, 4, 7, 9, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.758
+Acurracy with features: {3, 4, 7, 10, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.752
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 29, 30, 37} is: 0.757
+Acurracy with features: {3, 4, 7, 12, 13, 14, 16, 18, 21, 29, 30, 37} is: 0.763
+Acurracy with features: {3, 4, 7, 12, 13, 15, 16, 18, 21, 29, 30, 37} is: 0.766
+Acurracy with features: {3, 4, 7, 12, 13, 16, 17, 18, 21, 29, 30, 37} is: 0.735
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 19, 21, 29, 30, 37} is: 0.758
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 20, 21, 29, 30, 37} is: 0.775
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 37} is: 0.765
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 23, 29, 30, 37} is: 0.757
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 24, 29, 30, 37} is: 0.769
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 25, 29, 30, 37} is: 0.762
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 26, 29, 30, 37} is: 0.764
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 27, 29, 30, 37} is: 0.766
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 28, 29, 30, 37} is: 0.750
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 31, 37} is: 0.750
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 32, 37} is: 0.770
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.780
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 34, 37} is: 0.766
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 35, 37} is: 0.746
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 36, 37} is: 0.755
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37, 38} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37, 39} is: 0.761
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 37, 40} is: 0.768
+Feature set {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} was best, accuracy is 0.780
+Acurracy with features: {1, 3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.754
+Acurracy with features: {2, 3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.734
+Acurracy with features: {3, 4, 5, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.712
+Acurracy with features: {3, 4, 6, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 8, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.739
+Acurracy with features: {3, 4, 7, 9, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.752
+Acurracy with features: {3, 4, 7, 10, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.745
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 29, 30, 33, 37} is: 0.752
+Acurracy with features: {3, 4, 7, 12, 13, 14, 16, 18, 21, 29, 30, 33, 37} is: 0.737
+Acurracy with features: {3, 4, 7, 12, 13, 15, 16, 18, 21, 29, 30, 33, 37} is: 0.752
+Acurracy with features: {3, 4, 7, 12, 13, 16, 17, 18, 21, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 19, 21, 29, 30, 33, 37} is: 0.749
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 20, 21, 29, 30, 33, 37} is: 0.741
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.757
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 23, 29, 30, 33, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 24, 29, 30, 33, 37} is: 0.746
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 25, 29, 30, 33, 37} is: 0.751
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 26, 29, 30, 33, 37} is: 0.751
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 27, 29, 30, 33, 37} is: 0.746
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 28, 29, 30, 33, 37} is: 0.728
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 31, 33, 37} is: 0.756
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 32, 33, 37} is: 0.744
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 34, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 35, 37} is: 0.743
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 36, 37} is: 0.732
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37, 38} is: 0.744
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37, 39} is: 0.741
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 29, 30, 33, 37, 40} is: 0.755
+Feature set {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} was best, accuracy is 0.757
+Acurracy with features: {1, 3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.731
+Acurracy with features: {2, 3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.726
+Acurracy with features: {3, 4, 5, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.725
+Acurracy with features: {3, 4, 6, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.721
+Acurracy with features: {3, 4, 7, 8, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.736
+Acurracy with features: {3, 4, 7, 10, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.753
+Acurracy with features: {3, 4, 7, 12, 13, 14, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 12, 13, 15, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.733
+Acurracy with features: {3, 4, 7, 12, 13, 16, 17, 18, 21, 22, 29, 30, 33, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 19, 21, 22, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 20, 21, 22, 29, 30, 33, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 23, 29, 30, 33, 37} is: 0.711
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 37} is: 0.739
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 25, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 26, 29, 30, 33, 37} is: 0.740
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 27, 29, 30, 33, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 28, 29, 30, 33, 37} is: 0.713
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 31, 33, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 32, 33, 37} is: 0.739
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 35, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 36, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 38} is: 0.744
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 39} is: 0.721
+Acurracy with features: {3, 4, 7, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 40} is: 0.729
+Feature set {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} was best, accuracy is 0.753
+Acurracy with features: {1, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.735
+Acurracy with features: {2, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.720
+Acurracy with features: {3, 4, 5, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.719
+Acurracy with features: {3, 4, 6, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.731
+Acurracy with features: {3, 4, 7, 8, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 10, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.722
+Acurracy with features: {3, 4, 7, 11, 12, 13, 14, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 11, 12, 13, 15, 16, 18, 21, 22, 29, 30, 33, 37} is: 0.731
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 17, 18, 21, 22, 29, 30, 33, 37} is: 0.732
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 19, 21, 22, 29, 30, 33, 37} is: 0.726
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 20, 21, 22, 29, 30, 33, 37} is: 0.721
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 23, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 25, 29, 30, 33, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 26, 29, 30, 33, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 27, 29, 30, 33, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 28, 29, 30, 33, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 31, 33, 37} is: 0.744
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 32, 33, 37} is: 0.745
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.746
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 35, 37} is: 0.732
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 36, 37} is: 0.732
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 38} is: 0.729
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 37, 40} is: 0.716
+Feature set {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} was best, accuracy is 0.746
+Acurracy with features: {1, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.726
+Acurracy with features: {2, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.723
+Acurracy with features: {3, 4, 5, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.711
+Acurracy with features: {3, 4, 6, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.735
+Acurracy with features: {3, 4, 7, 8, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.737
+Acurracy with features: {3, 4, 7, 10, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.729
+Acurracy with features: {3, 4, 7, 11, 12, 13, 14, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 11, 12, 13, 15, 16, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.735
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 17, 18, 21, 22, 29, 30, 33, 34, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 19, 21, 22, 29, 30, 33, 34, 37} is: 0.736
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 20, 21, 22, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 23, 29, 30, 33, 34, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.745
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 25, 29, 30, 33, 34, 37} is: 0.739
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 26, 29, 30, 33, 34, 37} is: 0.737
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 27, 29, 30, 33, 34, 37} is: 0.720
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 28, 29, 30, 33, 34, 37} is: 0.709
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 31, 33, 34, 37} is: 0.728
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 32, 33, 34, 37} is: 0.733
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 35, 37} is: 0.719
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 36, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37, 38} is: 0.719
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37, 39} is: 0.721
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 29, 30, 33, 34, 37, 40} is: 0.714
+Feature set {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} was best, accuracy is 0.745
+Acurracy with features: {1, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.733
+Acurracy with features: {2, 3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.715
+Acurracy with features: {3, 4, 5, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 6, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.726
+Acurracy with features: {3, 4, 7, 8, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.706
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.740
+Acurracy with features: {3, 4, 7, 10, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.736
+Acurracy with features: {3, 4, 7, 11, 12, 13, 14, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 11, 12, 13, 15, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 17, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 19, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.736
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 20, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.704
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 25, 29, 30, 33, 34, 37} is: 0.739
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 26, 29, 30, 33, 34, 37} is: 0.732
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 27, 29, 30, 33, 34, 37} is: 0.720
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 28, 29, 30, 33, 34, 37} is: 0.711
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 31, 33, 34, 37} is: 0.729
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 32, 33, 34, 37} is: 0.733
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 35, 37} is: 0.715
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 36, 37} is: 0.729
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 38} is: 0.719
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 39} is: 0.708
+Acurracy with features: {3, 4, 7, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 40} is: 0.714
+Feature set {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} was best, accuracy is 0.740
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.711
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.720
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.716
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.721
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.710
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 15, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.704
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 17, 18, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 19, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 20, 21, 22, 24, 29, 30, 33, 34, 37} is: 0.705
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.729
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 25, 29, 30, 33, 34, 37} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 26, 29, 30, 33, 34, 37} is: 0.710
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 27, 29, 30, 33, 34, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 28, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 31, 33, 34, 37} is: 0.722
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 32, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 35, 37} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 36, 37} is: 0.726
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 38} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 39} is: 0.710
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 24, 29, 30, 33, 34, 37, 40} is: 0.705
+Feature set {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} was best, accuracy is 0.729
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.719
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.700
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.700
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.706
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.714
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.715
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.730
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 15, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.695
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.716
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 19, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 20, 21, 22, 23, 24, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 33, 34, 37} is: 0.735
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 26, 29, 30, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 27, 29, 30, 33, 34, 37} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 28, 29, 30, 33, 34, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 32, 33, 34, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 35, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.737
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37, 38} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37, 39} is: 0.731
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 37, 40} is: 0.710
+Feature set {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} was best, accuracy is 0.737
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.721
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.714
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.714
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.701
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.716
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.721
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 15, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.701
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.705
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 19, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.723
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 20, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 33, 34, 36, 37} is: 0.731
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 26, 29, 30, 33, 34, 36, 37} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 27, 29, 30, 33, 34, 36, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 28, 29, 30, 33, 34, 36, 37} is: 0.706
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 32, 33, 34, 36, 37} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 35, 36, 37} is: 0.716
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37, 38} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37, 39} is: 0.706
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 33, 34, 36, 37, 40} is: 0.716
+Feature set {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} was best, accuracy is 0.734
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.730
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.719
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.726
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.704
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.715
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 15, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.697
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.709
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 19, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 20, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37} is: 0.728
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.738
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 26, 29, 30, 31, 33, 34, 36, 37} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 27, 29, 30, 31, 33, 34, 36, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 28, 29, 30, 31, 33, 34, 36, 37} is: 0.701
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 32, 33, 34, 36, 37} is: 0.696
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 35, 36, 37} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37, 38} is: 0.716
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.715
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 29, 30, 31, 33, 34, 36, 37, 40} is: 0.723
+Feature set {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} was best, accuracy is 0.738
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.725
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.713
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.726
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.721
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.734
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.723
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.740
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 15, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.705
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.718
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 19, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 36, 37} is: 0.731
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 36, 37} is: 0.729
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 36, 37} is: 0.715
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 36, 37} is: 0.709
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37} is: 0.703
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 40} is: 0.728
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} was best, accuracy is 0.740
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.717
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.719
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.726
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.714
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.723
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.702
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.714
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.722
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37} is: 0.733
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 36, 37} is: 0.727
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 36, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 36, 37} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 36, 37} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37} is: 0.725
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.739
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 40} is: 0.722
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} was best, accuracy is 0.739
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.719
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.716
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.727
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.720
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.723
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.705
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.709
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.728
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 36, 37, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 36, 37, 39} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 39} is: 0.727
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.730
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 39, 40} is: 0.725
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} was best, accuracy is 0.730
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.722
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.703
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.717
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.709
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.707
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.698
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.709
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.717
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.707
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 36, 37, 38, 39} is: 0.711
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.734
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 36, 37, 38, 39, 40} is: 0.729
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} was best, accuracy is 0.734
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.715
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.702
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.724
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.721
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.700
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.694
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.720
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.718
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.727
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.722
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.712
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.715
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} was best, accuracy is 0.727
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.709
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.713
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.712
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.721
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.700
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.697
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.700
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.706
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.716
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.724
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39} is: 0.707
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.729
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.729
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.725
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.716
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.705
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.712
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.710
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.697
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.728
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.704
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.704
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.719
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.708
+Feature set {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.728
+Acurracy with features: {1, 3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.724
+Acurracy with features: {2, 3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.703
+Acurracy with features: {3, 4, 5, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.712
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.730
+Acurracy with features: {3, 4, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.698
+Acurracy with features: {3, 4, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.699
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.713
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.708
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.722
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {3, 4, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.689
+Feature set {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.730
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.729
+Acurracy with features: {2, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.717
+Acurracy with features: {3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.717
+Acurracy with features: {3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.700
+Acurracy with features: {3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.702
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.710
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.710
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.723
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.703
+Feature set {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.729
+Acurracy with features: {1, 2, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.718
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.720
+Acurracy with features: {1, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.699
+Acurracy with features: {1, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.702
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.710
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.721
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.703
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.705
+Feature set {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.721
+Acurracy with features: {1, 2, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.720
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.721
+Acurracy with features: {1, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.694
+Acurracy with features: {1, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.700
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.705
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.712
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.704
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.710
+Acurracy with features: {1, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.708
+Feature set {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.721
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.711
+Acurracy with features: {1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.707
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.702
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.697
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.702
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.690
+Acurracy with features: {1, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.697
+Feature set {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.711
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.705
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.712
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.695
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.699
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.691
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.690
+Feature set {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.712
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.691
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.681
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.696
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.674
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.685
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.696
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.690
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.687
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.702
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.671
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.685
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.702
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.688
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.698
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.683
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.685
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.698
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.684
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.691
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.701
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.701
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.681
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.692
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.692
+Acurracy with features: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} is: 0.659
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} was best, accuracy is 0.659
+The search took 77046 milliseconds.
+Feature list {13, 21} is the best feature subset, with an accuracy of 0.955

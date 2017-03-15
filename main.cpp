@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 #include <assert.h>
 #include <fstream>
 #include <string>
@@ -21,6 +22,33 @@ struct Object {
     }
     std::cout << std::endl;
   }
+};
+
+// Holds the variance with the corresponsing feature index
+struct varianceIndex {
+  double variance;
+  int index;
+  varianceIndex(double v, int i) {
+    variance = v;
+    index = i;
+  }
+  varianceIndex() {
+    variance = 0;
+    index = 0;
+  }
+  
+  bool operator<(const varianceIndex &RHS) const {
+    return (this->variance < RHS.variance);
+  }
+  bool operator>(const varianceIndex &RHS) const {
+    return (this->variance > RHS.variance);
+  }
+
+  void set(double v, int i) {
+    variance = v;
+    index = i;
+  }
+  
 };
 
 // Returns the distance between two objects.
@@ -60,6 +88,16 @@ std::set<int> forwardSelection
 std::set<int> backwardElimination
 (const std::vector<Object> &trainingSet);
 
+// Greedy forward feature selection algorithm
+// Calculate the variance for each class in each feature once
+// Add the feature that has the lowest variance
+// Calculate accuracy and repeat
+// Choose the feature subset with the highest accuracy
+// Do this for both classes
+// TODO: better description
+std::set<int> varianceSelection
+(const std::vector<Object> &trainingSet);
+
 // Prints the feature list wrapped with curly braces
 // Ex. {1, 2, 3, 4}
 void printFeatureList
@@ -77,7 +115,7 @@ int main(int argc, char* argv[]) {
   std::fstream file;
   file.open(argv[1]);
   if (file.fail()) {
-    std::cout << "Failed to open file " << argv[1] << std::endl;
+    std::cout << "Error: Failed to open file " << argv[1] << std::endl;
     exit(-2);
   }
 
@@ -92,7 +130,7 @@ int main(int argc, char* argv[]) {
       while (line.at(0) == ' ') {
 	line.erase(0, 1);
       }
-      // Add in feature
+      // Add in featuren
       instances.back().features.push_back(temp);
       std::size_t pos = line.find(' ', 0);
       // No more features left
@@ -106,6 +144,14 @@ int main(int argc, char* argv[]) {
   file.close();
   std::cout << "(done)" << std::endl;
 
+  if (instances.size() == 0) {
+    std::cout << "Error: input file doesn't have valid data" << std::endl;
+    exit(-3);
+  }
+
+  std::cout << "This dataset has " << instances.at(0).features.size()-1 << " features (not including the class attribute), with "
+	    << instances.size() << " instances." << std::endl;
+
   std::cout << "Normalizing data ";
   normalize(instances);
   std::cout << "(done)" << std::endl;
@@ -113,7 +159,8 @@ int main(int argc, char* argv[]) {
   // INPUT
   std::cout << "Type the number of the algorithm you want to run." << std::endl
 	    << "\t1) Forward Selection" << std::endl
-	    << "\t2) Backward Elimination" << std::endl;
+	    << "\t2) Backward Elimination" << std::endl
+	    << "\t3) Variance Forward Selection" << std::endl;
   int input;
   std::cin >> input;
   std::set<int> (*search)(const std::vector<Object>&) = 0;
@@ -125,6 +172,9 @@ int main(int argc, char* argv[]) {
     case 2:
       search = &backwardElimination;
       break;
+    case 3:
+      search = &varianceSelection;
+      break;
     default:
       std::cout << "Please enter a valid selection." << std::endl;
       std::cin >> input;
@@ -132,6 +182,8 @@ int main(int argc, char* argv[]) {
     }
   }
 
+  std::cout << "Starting search" << std::endl;
+  
   // Format output
   std::cout.setf(std::ios::fixed, std::ios::floatfield);
   std::cout.precision(3);
@@ -157,7 +209,7 @@ int main(int argc, char* argv[]) {
   printFeatureList(featureList);
   std::cout << " is the best feature subset, with an accuracy of "
 	    << validation(featureList, instances) << std::endl;
-  
+
   return 0;
 }
 
@@ -271,9 +323,11 @@ std::set<int> forwardSelection
       
       localFeatureList.erase(*it);
     }
-    std::cout << "Best choice is to add feature: " << feature << std::endl;
     localFeatureList.insert(feature);
     remainingFeatures.erase(feature);
+    std::cout << "Feature set ";
+    printFeatureList(localFeatureList);
+    std::cout << " was best, accuracy is " << maxAccuracy << std::endl;
     if (maxAccuracy > accuracy) {
       featureList = localFeatureList;
       accuracy = maxAccuracy;
@@ -317,8 +371,10 @@ std::set<int> backwardElimination
       
       localFeatureList.insert(*it);
     }
-    std::cout << "Best choice is to remove feature: " << feature << std::endl;
     localFeatureList.erase(feature);
+    std::cout << "Feature set ";
+    printFeatureList(localFeatureList);
+    std::cout << " was best, accuracy is " << maxAccuracy << std::endl;
     if (maxAccuracy > accuracy) {
       featureList = localFeatureList;
       accuracy = maxAccuracy;
@@ -326,6 +382,154 @@ std::set<int> backwardElimination
   }
   
   return featureList;
+}
+
+
+// class should be either 1 or 2
+std::set<int> varianceSelection
+(const std::vector<Object> &trainingSet) {
+  if (trainingSet.size() == 0) {
+    std::cout << "Error: Training set has no objects" << std::endl;
+    exit(0);
+  }
+
+  std::priority_queue<varianceIndex, std::vector<varianceIndex>,
+		      std::greater<varianceIndex>> variancesClass1;
+  std::priority_queue<varianceIndex, std::vector<varianceIndex>,
+		      std::greater<varianceIndex>> variancesClass2;
+  std::priority_queue<varianceIndex, std::vector<varianceIndex>,
+		      std::greater<varianceIndex>> variancesAnyClass;
+  
+  // Calculate mean for each class for each feature
+  int size = trainingSet.at(0).features.size()-1;
+  double mean1[size] = {};
+  int count1[size] = {};
+  double mean2[size] = {};
+  int count2[size] = {};
+  for (auto it = trainingSet.begin(); it != trainingSet.end(); ++it) {
+    for (int i = 0; i < size; ++i) {
+      if (it->features.at(0) == 1) {
+	mean1[i] += it->features.at(i+1);
+	++count1[i];
+	}
+      else if (it->features.at(0) == 2) {
+       	mean2[i] += it->features.at(i+1);
+	++count2[i];
+      }
+      else {
+	std::cout << "Error: Class (feature 0) needs to be either 1 or 2." << std::endl;
+	exit(-1);
+      }
+    }
+  }
+  for (int i = 0; i < size; ++i) {
+    mean1[i] /= count1[i];
+    mean2[i] /= count2[i];
+  }
+
+  // Calculate variance for each class for each feature
+  double variance1[size] = {};
+  double variance2[size] = {};
+  double x;
+  for (auto it = trainingSet.begin(); it != trainingSet.end(); ++it) {
+    for (int i = 0; i < size; ++i) {
+      if (it->features.at(0) == 1) {
+	x = it->features.at(i+1) - mean1[i];
+	variance1[i] += x*x;
+      }
+      else if (it->features.at(0) == 2) {
+	x = it->features.at(i+1) - mean2[i];
+	variance2[i] += x*x;
+      }
+      else {
+	std::cout << "Error: Class (feature 0) needs to be either 1 or 2." << std::endl;
+	exit(-1);
+      }
+    }
+  }
+  varianceIndex temp;
+  for (int i = 0; i < size; ++i) {
+    variance1[i] /= count1[i]-1;
+    temp.set(variance1[i], i+1);
+    variancesClass1.push(temp);
+    variance2[i] /= count2[i]-1;
+    temp.set(variance2[i], i+1);
+    variancesClass2.push(temp);
+    temp.set(std::min(variance1[i], variance2[i]), i+1);
+    variancesAnyClass.push(temp);
+  }
+
+  std::set<int> globalFeatureList;
+  double globalAccuracy;
+  
+  // Greedy pick variances in Class 1
+  double maxAccuracy = 0;
+  std::set<int> featureList;
+  std::set<int> localFeatureList;
+  while (!variancesClass1.empty()) {
+    localFeatureList.insert(variancesClass1.top().index);
+    std::cout << "Adding feature " << variancesClass1.top().index
+	      << " with variance " << variancesClass1.top().variance << std::endl;
+    variancesClass1.pop();
+    double accuracy = validation(localFeatureList, trainingSet);
+    if (accuracy > maxAccuracy) {
+      maxAccuracy = accuracy;
+      featureList = localFeatureList;
+    }
+  }
+  globalAccuracy = maxAccuracy;
+  globalFeatureList = featureList;
+  std::cout << "Class 1 feature set ";
+  printFeatureList(featureList);
+  std::cout << " was best, accuracy is " << maxAccuracy << std::endl;
+
+  // Greedy pick variances in Class 2
+  maxAccuracy = 0;
+  featureList.clear();
+  localFeatureList.clear();
+  while (!variancesClass2.empty()) {
+    localFeatureList.insert(variancesClass2.top().index);
+    std::cout << "Adding feature " << variancesClass2.top().index
+	      << " with variance " << variancesClass2.top().variance << std::endl;
+    variancesClass2.pop();
+    double accuracy = validation(localFeatureList, trainingSet);
+    if (accuracy > maxAccuracy) {
+      maxAccuracy = accuracy;
+      featureList = localFeatureList;
+    }
+  }
+  if (maxAccuracy > globalAccuracy) {
+    globalAccuracy = maxAccuracy;
+    globalFeatureList = featureList;
+  }
+  std::cout << "Class 2 feature set ";
+  printFeatureList(featureList);
+  std::cout << " was best, accuracy is " << maxAccuracy << std::endl;
+
+  // Greedy pick variances
+  maxAccuracy = 0;
+  featureList.clear();
+  localFeatureList.clear();
+  while (!variancesAnyClass.empty()) {
+    localFeatureList.insert(variancesAnyClass.top().index);
+    std::cout << "Adding feature " << variancesAnyClass.top().index
+	      << " with variance " << variancesAnyClass.top().variance << std::endl;
+    variancesAnyClass.pop();
+    double accuracy = validation(localFeatureList, trainingSet);
+    if (accuracy > maxAccuracy) {
+      maxAccuracy = accuracy;
+      featureList = localFeatureList;
+    }
+  }
+  if (maxAccuracy > globalAccuracy) {
+    globalAccuracy = maxAccuracy;
+    globalFeatureList = featureList;
+  }
+  std::cout << "Any class feature set ";
+  printFeatureList(featureList);
+  std::cout << " was best, accuracy is " << maxAccuracy << std::endl;
+  
+  return globalFeatureList;
 }
 
 void printFeatureList
